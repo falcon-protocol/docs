@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress"
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 	title: "Falcon Protocol",
+	 base: '/vite-press-falcon/',
 	description: "Documentation on the Falcon Protocol",
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
