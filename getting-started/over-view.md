@@ -8,7 +8,7 @@ app bundling.
 
 ::: tip What you will learn on this page
 - The business case for app bundling
-- Falcon protocols features
+- Falcon Protocol features
 :::
 
 
