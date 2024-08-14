@@ -21,3 +21,5 @@ A programmatic contract that encodes the terms of the partnership agreement betw
 ## Falcon broker
 An agentic instance of the Falcon Protocol which provides complete lifecycle
 management for the reseller and merchant of a given bundle offering.
+## New section
+This is a new section 
