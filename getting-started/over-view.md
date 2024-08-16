@@ -13,7 +13,7 @@ app bundling.
 
 
 ## What is an app bundle
-An app bundle is a collection of one or more subscription apps that are distributed together in a single purchaseable package to the end consumer.
+An app bundle is a collection of two or more subscription apps that are distributed together in a single discounted purchaseable package to the end consumer.
 
 ## Who is app bundling for
 App bundling is for any subscription business; whether you sell physical or
@@ -41,11 +41,13 @@ with their own challenges that reduce the liklihood of success.
 The goal of the Falcon protocol is to provide a universal standard infrastructure that will allow all market participants to easily create and distribute app bundles.
 
 The primary features of the Falcon protocol are:
-1. Entitlement management - Managing the access rights of the end user during
+1. Entitlement management - Managing the access rights of the end consumer during
    the lifecycle of an app bundle.
-2. Smart Escrow - Programmatic money remittance for apps that are to receive
-   revenue from the 'collector' in a bundle as well as commission remittance for
-   apps that are to receive a commission for driving sales to an app in the
-   bundle.
-3. Partner discovery - A mechanism for apps to discover other apps to bundle
-   with
+2. Reselling escrow - Programmatic money acceptance from bundle publishers that
+   are optionally, in the case of super bundles, collecting revenues on behalf
+   of merchants. Falcon then handles remittance of this revenue to the various
+   merchants.
+3. Commissions remittance - Facilitating tracking & comission payments from merchants to bundle
+   publisher for successful user acquisition baased on the programmed contract terms. 
+4. Partner discovery & business development - A mechanism for businesses to
+   discover and partner together to form bundles.

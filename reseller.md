@@ -1,4 +1,0 @@
-# Purchase management
-
-Coming soon.
-

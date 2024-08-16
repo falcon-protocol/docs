@@ -1,4 +1,3 @@
-
 # Soft bundles 
 
 Soft bundles are a light coupling intergration whereby bundle participants can
@@ -29,3 +28,15 @@ subscription in their own app which is exclusive to the bundle reseller.
   plan.
 
   
+### Entitlement Management
+In a soft bundle the consumer purchases their subscription directly from each
+merchant present in the bundle. The deal pricing is granted typically by way of
+coupons. As such there is no need to integrate with the Entitlement API for
+managing user access state. There is still the requirement however of sending
+the Falcon Protocol a callback upon user activation and subscription to register
+the activation of the user as a customer. 
+
+# Lack of Contingent Benefit
+Contingent benefits are one of the primary inducements to keep a user
+subscribed. This is the retentive power of super bundles. In soft bundles
+however there is no contingent inducement/benefit. 

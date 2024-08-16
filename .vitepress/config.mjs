@@ -24,22 +24,18 @@ export default defineConfig({
 				],
 			},
 			{
-				text: "Bundling modes",
-				items: [
-					{ text: "Soft bundle", link: "/soft" },
-					{ text: "Super bundle", link: "/super" },
-				],
+				text: "Bundling modes", link: "/bundle-modes"
 			},
 			{
 				text: "Merchants",
 				items: [
-					{ text: "Entitlement management", link: "/merchant" },
+					{ text: "Overview", link: "/merchant" },
 				],
 			},
 			{
-				text: "Resellers",
+				text: "Bundle Publisher",
 				items: [
-					{ text: "Purchase management", link: "/reseller" },
+					{ text: "Overview", link: "/publisher" },
 				],
 			},
 		],
