@@ -26,7 +26,7 @@ The bundle publisher is the entity the creates and sells bundle offerings to the
 
 ::: info 
 The primary responsibility of the bundle publisher is to present the bundle to the end
-consumer and in the case of a [super bundle](/super) collect revenue for
+consumer and in the case of a [super bundle](/bundle-modes) collect revenue for
 the entire bundle and remit commission to the Falcon Protocol for further
 distribution.
 :::
