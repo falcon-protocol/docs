@@ -56,4 +56,4 @@ It is responsible for:
 3. Bundle term enforcement and exeuction between bundle publisher and merchant
 
 ## Entity relationship
-![Image](../images/entity-diagram.jpg)
+![Image](../images/entity-diagram.png)

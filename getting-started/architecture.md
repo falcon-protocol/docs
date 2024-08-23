@@ -14,4 +14,4 @@ across hundreds of thousands of market participants.
 
 ## The Lifecycle of a bundle application
 The below diagram shows a standard bundle application onboarding lifecycle.
-![](../images/sequence-diagram.jpg){data-zoomable}
+![](../images/sequence-diagram.png){data-zoomable}
