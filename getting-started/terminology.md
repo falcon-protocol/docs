@@ -1,3 +1,5 @@
+# Terminology 
+Key terms used in the bundling ecosystem.
 ## Consumer
 The end consumer of a subscription application.
 ## Bundle Publisher
