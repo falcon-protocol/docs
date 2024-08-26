@@ -42,6 +42,15 @@ export default defineConfig({
 					{ text: "Overview", link: "/publisher" },
 				],
 			},
+			{
+				text: "Integration Guides",
+				items: [
+					{ text: "Overview", link: "/integration-guide/overview" },
+					{ text: "iOS", link: "/integration-guide/ios" },
+					{ text: "Android", link: "/integration-guide/android" },
+					{ text: "Falcon web2app", link: "/integration-guide/falcon" },
+				],
+			},
 		],
 
 	},
