@@ -24,7 +24,11 @@ export default defineConfig({
 				],
 			},
 			{
-				text: "Bundling modes", link: "/bundle-modes"
+				text: "Bundling modes", link: "/bundle-modes",
+				items: [
+					{ text: "Super vs. Soft", link: "/bundle-modes" },
+					{ text: "Bundle types", link: "/bundle-types" },
+				],
 			},
 			{
 				text: "Merchants",
