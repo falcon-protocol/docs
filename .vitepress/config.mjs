@@ -8,9 +8,9 @@ export default defineConfig({
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
-			{ text: "Home", link: "/" },
+			{ text: "Home", link: "https://falconprotocol.com" },
 			{ text: "Merchants", link: "/merchant" },
-			{ text: "Resellers", link: "/reseller" },
+			{ text: "Bundle Publisher", link: "/publisher" },
 		],
 
 		sidebar: [
