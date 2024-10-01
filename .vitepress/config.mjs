@@ -5,6 +5,9 @@ export default defineConfig({
 	title: "Falcon Protocol",
 	 base: '/',
 	description: "Documentation on the Falcon Protocol",
+	head: [
+		['meta', { name: 'impact-site-verification', content: 'c3083702-1e01-4586-87c7-274cc129b3ef' }]
+	],
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
