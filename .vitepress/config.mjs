@@ -7,11 +7,8 @@ export default defineConfig({
 	description: "Documentation on the Falcon Perks Platform",
 	themeConfig: {
 		nav: [
-			{ text: "Home", link: "https://falconprotocol.com" },
-			{ text: "Merchants", link: "/merchant" },
-			{ text: "Bundle Publisher", link: "/publisher" },
+			{ text: "Home", link: "https://falconlabs.us" },
 		],
-
 		sidebar: [
 			{
 				text: "Getting started", link: "/getting-started/over-view",
@@ -35,6 +32,5 @@ export default defineConfig({
 				],
 			},
 		],
-
 	},
 })
