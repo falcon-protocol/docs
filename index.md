@@ -3,20 +3,20 @@
 layout: home
 
 hero:
-  name: "Falcon Protocol"
-  text: "The app bundling protocol"
-  tagline: Infrastructure for bundling subscription apps
+  name: "Falcon Perks"
+  text: "The Perk Platform"
+  tagline: Turn-key perk platform for your subscribers
   actions:
     - theme: brand
       text: Get started
       link: /getting-started/over-view
 
 features:
-  - title: Bundle protocol
-    details: Distribute apps together in a single package
-  - title: Contingent bundle contract
-    details: Contingent bundle contracts
-  - title: Smart Escrow
-    details: Programmatic commission remittance
+  - title: iOS Integration
+    details: Integrate the Falcon Perks SDK into your iOS app
+  - title: Android Integration
+    details: Integrate the Falcon Perks SDK into your Android app
+  - title: Web Integration
+    details: Integrate the Falcon Perks SDK into your Web app
 ---
 

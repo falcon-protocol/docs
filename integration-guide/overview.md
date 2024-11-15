@@ -1,11 +1,6 @@
 # Integration Overview
+Below are guides that will help you integrate the Falcon Perks SDK into your application.
 
-## App Integrations
-Guides on how to integrate app bundle units into your application.
-
-### [iOS](./ios.md)
+### [iOS](./ios/integration.md)
 ### [Android](./android.md)
-### [Falcon Web2App](./falcon.md)
-
-## Falcon protocol Integrations
-Guides on how to integrate your application backend with the Falcon protocol.
+### [Web](./web.md)

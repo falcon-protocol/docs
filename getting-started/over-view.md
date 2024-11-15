@@ -1,53 +1,25 @@
-# Falcon Overview
+# Falcon Perks Overview
 
-The Falcon protocol is a software protocol to enable the bundling of subscription apps. 
+The Falcon Perks Platform gives you a plug-and-play solution to deliver a Perks membership benefit to your subscribers.
 
-This page provdes and overview of the business model and value propositions for
-app bundling.
+This page provides an overview of the business model and value propositions for offering Perks.
 
 
 ::: tip What you will learn on this page
-- The business case for app bundling
-- Falcon Protocol features
+- The business case for offering Perks
+- Falcon Perks features
 :::
 
 
-## What is an app bundle
-An app bundle is a collection of two or more subscription apps that are distributed together in a single discounted purchaseable package to the end consumer.
+## What are Perks?
+Perks are a membership benefit that can be offered to your subscribers. They are available to subscribers of supported subscription apps and can be used to drive additional revenue and retention.
 
-## Who is app bundling for
-App bundling is for any subscription business; whether you sell physical or
-digitial products or goods in your subscriptions you can take advantage of app
-bundling.
+## Who is offering Perks?
+Any subscription business can offer Perks. Whether you sell physical or digital products or goods in your subscriptions, you can take advantage of Perks as a value add to your subscription offering.
 
-## Values of app bundling
-There are two primary value propositions for app bundling:
+## Values of Perks
+There are two primary value propositions for Perks:
 
-1. Distribution - By bundling your subscription service with others you can
-   increase your reach and distribution. Any app that is part of the bundling
-   protocol becomes a potential distribution channel for your app.
+1. Distribution - Through the Falcon Perks network you are able to massively increase the distribution of your application or subscription service, through partners Perks programs. Bringing your offering to a wider audience of exclusively qualified subscribed users. 
 
-2. Monetization - By bundling other subscription apps with your offering, you
-   can increase the value of your subscription service and increase subscription
-   conversion rates as well as customer lifetime value.
-
-## Goal of the Falcon protocol
-Until now the prospect of app bundling for subscription business was in almost
-all cases unfeasible. 
-
-There are many technical and commercial elements to create an app bundle, each
-with their own challenges that reduce the liklihood of success. 
-
-The goal of the Falcon protocol is to provide a universal standard infrastructure that will allow all market participants to easily create and distribute app bundles.
-
-The primary features of the Falcon protocol are:
-1. Entitlement management - Managing the access rights of the end consumer during
-   the lifecycle of an app bundle.
-2. Reselling escrow - Programmatic money acceptance from bundle publishers that
-   are optionally, in the case of super bundles, collecting revenues on behalf
-   of merchants. Falcon then handles remittance of this revenue to the various
-   merchants.
-3. Commissions remittance - Facilitating tracking & comission payments from merchants to bundle
-   publisher for successful user acquisition baased on the programmed contract terms. 
-4. Partner discovery & business development - A mechanism for businesses to
-   discover and partner together to form bundles.
+2. LTV Increase - Most Subscription businesses are 'hard capped' on their lifetime value. If a subscriber is on your highest annual plan which has unlocked all features, typically there are no ways to up-sell this customer and you are capped on LTV. A Perk program allows you to unlock this LTV cap through offering your subscribers a limitless amount of additional benefits they can take advantage of which brings your business more revenue for every Perk they take advantage of.
