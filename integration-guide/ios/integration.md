@@ -6,7 +6,7 @@ You have three options for integrating the SDK into your project
 
 - [CocoaPods](#cocoapods)
 - [Manual integration](/integration-guide/ios/manual)
-- [Swift Package Manager](#swift-package-manager)
+- [Swift Package Manager (Coming soon)](#)
 
 The SDK requires the minimum iOS deployment target to be `iOS 13.0` or above. It
 also requires Xcode version `15` or above.
@@ -16,7 +16,9 @@ repository.
 
 ## CocoaPods
 
-To integrate the Falcon Labs SDK through CocoaPods:
+**Coming Soon**
+
+<!-- To integrate the Falcon Labs SDK through CocoaPods:
 
 Add the following line to your Podfile:
 
@@ -28,7 +30,7 @@ Run the following on the command line:
 
 ```bash
 pod install --repo-update
-```
+``` -->
 
 ## Add the SDK Key
 
