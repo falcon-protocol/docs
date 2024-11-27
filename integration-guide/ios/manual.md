@@ -9,7 +9,7 @@ Before integrating FalconSDK, ensure the following:
 
 
 ## Download SDK
-[Click here to download the file](./FalconSDK.zip)\
+[Download FalconSDK](/downloads/FalconSDK.zip)\
 The downloaded zip file contains the FalconSDK.xcframework file
 
 ## Adding FalconSDK to Your Xcode Project
