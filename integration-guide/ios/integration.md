@@ -8,20 +8,11 @@ You have three options for integrating the SDK into your project
 - [Manual integration](/integration-guide/ios/manual)
 - [Swift Package Manager](#swift-package-manager)
 
-The SDK requires the minimum iOS deployment target to be `iOS 11.0` or above. It
+The SDK requires the minimum iOS deployment target to be `iOS 13.0` or above. It
 also requires Xcode version `15` or above.
 
 To receive release updates, subscribe to the Falcon Labs iOS SDK GitHub
 repository.
-
-## Swift Compatibility
-
-To ensure your build is compatible with artifacts that contain Swift, set
-`Build Settings > Always Embed Swift Standard Libraries` to `YES`.
-
-If you use Swift and build for iOS `12.2.0` or earlier, add `/usr/lib/swift` to
-`Build Settings > Runpath Search Paths`. This prevents issues with
-`libswiftCore.dylib`.
 
 ## CocoaPods
 
