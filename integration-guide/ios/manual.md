@@ -19,21 +19,3 @@ The downloaded zip file contains the FalconSDK.xcframework file
    - **Add to targets**: Select the target(s) where you will use FalconSDK.
 3.  Ensure that FalconSDK.xcframework is included in the **Frameworks, Libraries, and Embedded Content** section of your Xcode project target’s settings.
 
-
-## Using FalconSDK
-
-### Import the Framework
-
-To use FalconSDK, import it into your code:
-
-```swift
-import FalconSDK
-```
-
-### Start Using FalconSDK
-Once you have imported the framework, you can start using it in your code.\
-Here’s an example of how to initialize and use FalconSDK:
-```swift
-FLSdk.initSDK(key: "YOUR_SDK_KEY") { result in
-}
-```
