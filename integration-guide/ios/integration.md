@@ -45,6 +45,11 @@ pod install --repo-update
 2. Self serve [<span style="color: green; font-weight:bold; ">coming
    soon</span>]
 
+## Import SDK
+```swift
+import FalconSDK
+```
+
 ## Initialize the Falcon SDK
 
 Initialize the Falcon SDK with the initialization configuration object. Do this
@@ -52,7 +57,14 @@ at startup. This maximizes the time the SDK can take to cache Perks, which
 results in a better user experience.
 
 ```swift
-FalconSDK.initSDK(key: "YOUR_SDK_KEY")
+FLSdk.initSDK(key: "YOUR_SDK_KEY") { result in
+    switch result {
+    case .success:
+        // Start using the SDK
+    case let .failure(error):
+        // Handle error
+    }
+}
 ```
 
 Once the SDK is loaded you are ready to call any of its method to surface Perk
@@ -66,7 +78,7 @@ for "New Subscribers" and another for "Lapsed Subscribers". Each placement has a
 unique ID that you will use to display Perks in your app.
 
 ```swift
-let instance = FalconSDK.createPerksInstance(placement: "YOUR_PLACEMENT_ID")
+let instance = try FLSdk.createPerksInstance(placement: "YOUR_PLACEMENT_ID")
 ```
 
 After instantiating a Placement, you can then load perks into it to be presented
@@ -76,22 +88,26 @@ to your subscribers.
 Load the Perks into the Placement. This will fetch the Perks from the Falcon
 
 ```swift
-instance.loadPerks { isReady, error in
-    if let error = error {
-        // Handle error. Reload to try again.
-    } else if isReady {
-        // Perks are ready to be shown
-    }
+instance.loadPerks { result in
+  switch result {
+  case .success:
+      // Perks are ready to be shown
+  case let .failure(error):
+      // Handle error. Reload to try again.
+  }
 }
 ```
 
 ## Showing Perks
 Once the Perks are loaded, you can present the perk unit to your subscribers.
 ```swift
-instance.show { error in
-    if let error = error {
-        // Handle error. Call show again when ready.
-    }
+instance.show { result in
+  switch result {
+  case .success:
+      // Perks are shown
+  case let .failure(error):
+      // Handle error.
+  }
 }
 ```
 
@@ -101,7 +117,7 @@ To handle the lifecycle events of the Perks unit, you can implement the
 which is called when the Perks are loaded and ready to be shown.
 
 ```swift
-class DelegateListener: NSObject, PerksDelegate {
+class DelegateListener: FLPerksDelegate {
     
     func didClick(index: Int) {
         // User has clicked to redeem one of the promotions and navigated outside the app to the perk providers page.
