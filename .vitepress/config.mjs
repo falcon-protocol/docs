@@ -24,7 +24,7 @@ export default defineConfig({
 					{ text: "iOS", link: "/integration-guide/ios/integration",
 						items: [	
 							{ text: "Integration", link: "/integration-guide/ios/integration" },
-							{ text: "Manual SDK Integration", link: "/integration-guide/ios/manual" },
+							{ text: "Manual Integration (legacy)", link: "/integration-guide/ios/manual" },
 						],
 					},
 					{ text: "Android", link: "/integration-guide/android" },
